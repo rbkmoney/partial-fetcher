@@ -1,0 +1,30 @@
+{
+  "name": "partial-fetcher",
+  "version": "1.0.0",
+  "description": "An library for fetching data from endpoints that uses continuationToken.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prettier": "prettier \"**/*.{html,js,ts,css,scss,md,json,prettierrc,svg}\"",
+    "prettify": "npm run prettier -- --write",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "author": "rbk.money",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.2",
+    "typescript-tslint-plugin": "^0.5.5"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  }
+}
