@@ -1,5 +1,5 @@
 {
-  "name": "partial-fetcher",
+  "name": "@rbkmoney/partial-fetcher",
   "version": "1.0.0",
   "description": "An library for fetching data from endpoints that uses continuationToken.",
   "main": "dist/index.js",
@@ -17,6 +17,9 @@
   },
   "author": "rbk.money",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@types/jasmine": "^3.5.0",
     "prettier": "^1.19.1",
