@@ -1,7 +1,7 @@
 {
   "name": "@rbkmoney/partial-fetcher",
   "version": "1.0.4",
-  "description": "An library for fetching data from endpoints that uses continuationToken.",
+  "description": "A library for fetching data from endpoints that uses continuationToken.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
