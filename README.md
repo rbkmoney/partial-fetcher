@@ -1,6 +1,6 @@
 # Partial-fetcher
 
-#### A library for fetching data from endpoints that uses continuationToken.
+#### The library for fetching data from endpoints that uses continuationToken.
 
 ---
 
@@ -17,7 +17,7 @@ Use a `partial-fetcher`!
 
 ---
 
-Why `partial-fetcher` so great? Because supports things like `isLoading`, `hasMore`, `fetchMore`.
+Why `partial-fetcher` so great? Because supports things like `doAction`, `hasMore`, `fetchMore`.
 
 ---
 
