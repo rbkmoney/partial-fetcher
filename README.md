@@ -57,4 +57,4 @@ fetch(params: P, continuationToken: string): Observable<FetchResult<R>>
 
 -   Get your items from `searchResult$`, check if it has more with `hasMore$`, get loading state from `doAction$` and subscribe to errors with `errors$`.
 
--   #### You're awesome!
+-   **You're awesome!**
