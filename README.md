@@ -1,6 +1,6 @@
 # Partial-fetcher
 
-#### The library for fetching data from endpoints that uses continuationToken.
+**The library for fetching data from endpoints that uses continuationToken.**
 
 ---
 
@@ -33,7 +33,7 @@ Why `partial-fetcher` so great? Because supports things like `doAction`, `hasMor
 
 -   Install `partial-fetcher` via
 
-```
+```sh
 npm i --save @rbkmoney/partial-fetcher
 ```
 
